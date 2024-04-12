@@ -1,0 +1,1 @@
+These are guided coding exercises from https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/#create-methods-in-c-sharp-console-applications
