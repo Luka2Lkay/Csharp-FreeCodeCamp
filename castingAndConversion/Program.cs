@@ -131,3 +131,29 @@ foreach(string myValue in myValues) {
 }
 Console.WriteLine($"Message: {myMessage}");
 Console.WriteLine($"total: {numAns}");
+
+//  Complete a challenge to output math operations as specific number types
+Console.WriteLine();
+Console.WriteLine("Challenge 2");
+
+int value7 = 11;
+decimal value8 = 6.2m;
+float value9 = 4.3f;
+
+int result5 = Convert.ToInt32(value7/value8);
+decimal result6 = value8 /(decimal)value9;
+float result7 = value9/value7;
+// Your code here to set result1
+// Hint: You need to round the result to nearest integer (don't just truncate)
+
+Console.WriteLine($"Divide value1 by value2, display the result as an int: {result5}");
+
+// Your code here to set result2
+Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result6}");
+
+// Your code here to set result3
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {result7}");
+
+
+
+
