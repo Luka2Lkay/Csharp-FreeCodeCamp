@@ -141,3 +141,24 @@ foreach(string word in words) {
 }
 
 Console.WriteLine(newString);
+
+// parse a string of orders, sort the orders and tag possible errors
+
+Console.WriteLine();
+Console.WriteLine("parse a string of orders, sort the orders and tag possible errors");
+
+string orderStream1 = "B123,C234,A345,C15,B177,G3003,C235,B179";
+string[] ids = orderStream1.Split(',');
+
+Array.Sort(ids);
+
+foreach (string id in ids) {
+   
+    if(id.Length != 4) {
+        Console.WriteLine($"{id} - Error");
+    } else {
+Console.WriteLine(id);
+    }
+
+     
+}
